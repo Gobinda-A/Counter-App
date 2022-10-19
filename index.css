@@ -7,13 +7,18 @@ body {
     width: 100%;
 
 }
+.count{
+    margin-bottom: 40px;
+}
 .container{
     background-color: white;
     margin-top: 10%;
     margin-left: 20%;
     width: 60%;
+    height: 300px;
     border: 3px solid black;
     border-radius: 10px;
+    padding-bottom: 20px;
 }
 .footer{
     background-color: white;
@@ -44,9 +49,12 @@ button {
     font-weight: bold;
     width: 200px;
     margin-bottom: 5px;
-    border-radius: 5px;
+    border-radius: 15px;
+    cursor: pointer;
 }
-
+button:hover{
+    background-color: #def705f9 !important;
+  }
 #increment-btn {
     background: rgb(9, 220, 72);
 }
@@ -59,5 +67,20 @@ button {
 
 #save-btn {
     background: darkgreen;
+}
+#count-el{
+    background-color: black;
+    font-family: 'Dot Matrix', sans-serif;                                             
+    border: 1px solid black;
+    font-size: 25px;
+    color: #F94F6D;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 15px; 
+}
+#save-el{
+    font-size: 20px;
 }
 
